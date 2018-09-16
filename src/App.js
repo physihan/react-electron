@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import File from './pages/File';
 import Main from './pages/Main';
+import Navigator from './components/Navigator';
+import './App.css';
 
 class App extends Component {
   state = {};
 
   render() {
-    // const { qrData, wifiName } = this.state;
     return (
       <Router>
-        <Switch>
-          <Route path="/" component={Main} />
-        </Switch>
+        <div className="app">
+          <Navigator />
+
+          <Switch>
+            <Route exact path="/" component={Main} />
+            <Route path="/file" component={File} />
+            <Route path="/file1" component={File} />
+          </Switch>
+        </div>
       </Router>
     );
   }
