@@ -1,7 +1,9 @@
 module.exports = {
   extends: 'airbnb',
   rules: {
+    'indent':[2,2],
     'react/jsx-filename-extension': 0,
+    'react/jsx-indent':[2,2]
   },
   env: {
     browser: true,

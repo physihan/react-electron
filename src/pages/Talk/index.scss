@@ -1,0 +1,16 @@
+.talk-footer {
+    position: fixed;
+    width: calc(100% - 40px);
+    display: flex;
+    bottom: 0;
+    input {
+        padding: 0 10px;
+        flex: 1;
+        line-height: 30px;
+    }
+    button {
+        line-height: 30px;
+        width: 100px;
+        text-align: center;
+    }
+}

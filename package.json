@@ -16,6 +16,7 @@
   "main": "src/electron-starter.js",
   "dependencies": {
     "electron": "^2.0.9",
+    "node-wifi": "^2.0.4",
     "qrcode": "^1.2.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",

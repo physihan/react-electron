@@ -6,6 +6,8 @@ const routers = [
   { name: 'shouye', path: '/' },
   { name: 'file', path: '/file' },
   { name: 'file1', path: '/' },
+  { name: 'file1', path: '/talk' },
+
 ];
 export default () => (
   <div className="nav">
